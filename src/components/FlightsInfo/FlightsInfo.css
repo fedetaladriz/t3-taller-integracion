@@ -1,0 +1,16 @@
+
+.flightsInfoOuterContainer{
+    display: inline-flex;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.updateFlightsButton {
+    margin: 10px;
+    font-size: x-large;
+}
+
+.flights {
+    display: inline-flex;
+    padding: 3px;
+}

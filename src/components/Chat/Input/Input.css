@@ -1,0 +1,9 @@
+.input {
+    height: 100%;
+    width: 100%;
+}
+
+.inputOuterContainer {
+ display: inline-flex;
+ text-align: center;
+}

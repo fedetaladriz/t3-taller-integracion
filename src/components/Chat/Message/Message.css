@@ -1,0 +1,19 @@
+
+
+.messageOuterContainer {
+    border: 1px solid black;
+    padding: 3px;
+    justify-content: flex-end;
+    text-align: center;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.nameParagraph {
+    font-weight: bold;
+}
+
+.messageInfo {
+    display: inline-flex;
+    color: gray;
+}

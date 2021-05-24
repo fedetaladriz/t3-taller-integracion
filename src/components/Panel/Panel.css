@@ -1,0 +1,20 @@
+
+.columnsContainer {
+    display: flex;
+}
+
+.firstColumn {
+    width: 65%;
+}
+  
+.secondColumn {
+    width: 35%;
+}
+
+p, h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightcyan;
+}

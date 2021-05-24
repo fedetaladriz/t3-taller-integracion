@@ -1,0 +1,8 @@
+
+.flightOuterContainer {
+    border: 1px solid blue;
+    width: 220px;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+}
