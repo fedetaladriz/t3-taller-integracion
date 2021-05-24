@@ -8,6 +8,8 @@ const FlightInfo = ({ flight }) => {
     (
         <div className="flightOuterContainer">
             <p><b>{flight.airline} - {flight.code}</b></p>
+            <p>Avión {flight.plane}</p>
+            <p>Asientos: {flight.seats}</p>
             <p>Pasajeros:</p>
             <ul className="passengers">
                 {flight.passengers.map((p, i) => <li key={i}> {p.name} (age {p.age}) </li>)}

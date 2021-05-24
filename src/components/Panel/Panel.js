@@ -17,24 +17,10 @@ const Panel = ({ location }) => {
     const [message, setMessage] = useState('')
     const [positions, setPositions] = useState({})
     
-    // function getFlightIndex(code){
-    //     for (let i=0; i<flights.length, i++;){
-    //         if (flights[i].code == code){
-    //             return i
-    //         }
-    //     }
-    // }
 
     const ENDPOINT = 'wss://tarea-3-websocket.2021-1.tallerdeintegracion.cl';
     const path = '/flights';
 
-    // function addNewPosition(pos, code, newPosition){
-    //     let aux = [...pos[code], newPosition.position];
-    //     let res = {...pos, [code]: aux}
-    //     console.log("before", pos)
-    //     console.log("RES, added", code, res)
-    //     return res
-    // }
 
     function updatePositions(newPosition){
         let code = newPosition.code;
